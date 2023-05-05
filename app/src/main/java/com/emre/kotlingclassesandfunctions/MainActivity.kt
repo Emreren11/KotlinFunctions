@@ -10,6 +10,14 @@ class MainActivity : AppCompatActivity() {
 
         sum(5, 6)
         println(multiply(5, 7)) // return sonucunu parantez içine verir
+
+        //Classes
+        val homer = Simpson("Homer", 50, "Nuclear")
+        /*
+        homer.name = "Homer Simpson"
+        homer.age = 50
+        homer.job = "Nuclear"*/
+        println(homer.name)
     }
 
     fun test() { // Fonksiyon oluşturma
